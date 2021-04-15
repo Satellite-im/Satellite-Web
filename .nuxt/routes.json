@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/Users/kemopaw/Desktop/Satellite-Web/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_87ee214c"
+    "chunkName": "pages/index"
   }
 ]

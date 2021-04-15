@@ -145,7 +145,7 @@
             <h3 class="label dark">No Compromises</h3>
             <p>
               Satellite is built using serverless technology with peer 2 peer workflows. Everything is encrypted 
-              so your data only gets read by who you inted it to. We store files on a distributed network so redundacy
+              so your data only gets read by who you intend it to. We store files on a distributed network so redundancy
               comes built in along with large file storage.
             </p>
             <br />
@@ -161,8 +161,8 @@
             <h3 class="label dark">Multi-Platform</h3>
             <p>
               Chat from anywhere, from desktop and beyond Satellite has you covered. Satellite is also built to be offline-first 
-              so wether you have a good connection or not you can be sure you get your message out there! Our mobile app installs
-              as a PWA during Early Access so setup is quick, and you get updates immediatly.
+              so whether you have a good connection or not you can be sure you get your message out there! Our mobile app installs
+              as a PWA during Early Access so setup is quick, and you get updates immediately.
             </p>
             <br />
             <a href="#" class="button is-custom mt-5">Try the Alpha</a>
@@ -235,7 +235,7 @@
             <p>
               Satellite is nearing our early access beta! If you'd like to get started ahead of the curve
               you can join our mailing list and get notified of releases. You can give Satellite a try
-              right now but expect some bugs and please understand it is not representitive of our final product.
+              right now but expect some bugs and please understand it is not representative of our final product.
             </p>
             <br />
             <p>
@@ -250,7 +250,7 @@
               </div>
               <div class="column">
                 <a href="https://satellite.im" class="button is-custom-outline is-fullwidth"
-                  >Try Pre-Relase</a
+                  >Try Pre-Release</a
                 >
               </div>
             </div>
@@ -313,7 +313,7 @@
         </div>
         <div class="columns is-vcentered location-socials">
           <div class="column is-one-quarter wrapper-location">
-            <span class="location has-text-weight-bold">United states</span>
+            <span class="location has-text-weight-bold">United States</span>
           </div>
           <div class="column is-justify-content-flex-end is-flex gray-line">
             <div class="socials mb-3">

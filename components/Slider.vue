@@ -1,8 +1,5 @@
 <template>
   <div>
-    <a href="#" class="prev" @click.prevent="onClickPrev">
-      <img src="~/assets/images/g4533.png" alt="" />
-    </a>
     <div class="slider">
       <div
         class="slick-slide"
@@ -26,9 +23,6 @@
         </div>
       </div>
     </div>
-    <a href="#" class="next" @click.prevent="onClickNext">
-      <img src="~/assets/images/g4532.png" alt="" />
-    </a>
   </div>
 </template>
 
@@ -89,60 +83,25 @@ export default {
   },
 
   methods: {
-    onClickPrev() {
-      if (this.current != this.slides.length - 1) {
-        this.current = this.current + 1;
-      }
-    },
-    onClickNext() {
-      if (this.current != 0) {
-        this.current = this.current - 1;
-      }
-    },
+
   },
 };
 </script>
 
 <style scoped>
-.slider-wrapper .next,
-.slider-wrapper .prev {
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  transform-origin: center center;
-  z-index: 1;
-}
-
-.slider-wrapper .prev img,
-.slider-wrapper .next img {
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
-}
-.slider-wrapper .prev {
-  left: 0px;
-}
-
-.slider-wrapper .next {
-  right: 0px;
-}
-
-.slider-wrapper .slider {
-  padding-right: 0;
-  padding-left: 0;
-}
 
 .slider {
   display: flex;
-  padding: 0 35px;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  min-width: 0;
+  width: 100%;
+  justify-content: center;
 }
 
 .slick-slide {
-  width: 200px;
-  height: 300px;
+  height: 300px; 
+  width: 14.25%;
   border-radius: 10px;
   background-color: #e8e8fa;
   padding: 25px;
@@ -150,8 +109,9 @@ export default {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-right: 15px;
-  transition: all 0.3s;
+  align-content: center;
+  margin: 15px;
+  vertical-align: middle;
 }
 
 .slick-slide .avatar {
